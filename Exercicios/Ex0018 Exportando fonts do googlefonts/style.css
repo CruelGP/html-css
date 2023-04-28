@@ -1,0 +1,15 @@
+@charset "UTF8";
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
+:root{ --shadow: 'Shadows Into Light',Arial, Helvetica, sans-serif;
+        --Sedgwick:'Sedgwick Ave Display','Times New Roman', Times, serif;
+        --Ace: 'Bruno Ace SC''Times New Roman', Times, serif;}
+
+h1{font-family:var(--Ace);}
+p{font-family: var(--shadow); font-size: 30px;}
+
+
+
+h1.h1dale{font-family: 'Bruno Ace SC', Times, serif;}

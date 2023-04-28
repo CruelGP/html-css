@@ -1,0 +1,7 @@
+@charset "UTF8";
+
+h1{ border:30px solid;
+    border-image-source:url(Borda.png);
+    border-image-repeat: repeat; border-image-slice: 88;}
+    
+

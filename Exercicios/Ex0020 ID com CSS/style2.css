@@ -1,0 +1,8 @@
+@charset "UTF8";
+
+h1#principal{color: purple; font-family: 'Times New Roman', Times, serif; text-align: center;font-size: 80px;}
+h1#h5p{color: darkorange; font-size: 40px; text-align: left; font-family: 'Times New Roman', Times, serif;}
+h2.basico{color: green;}
+h2.intermediario{ color: #a5a500;}
+h2.avançado{color: red;}
+h1#c3p{ color: #407eda; font-size: 40px; font-family: 'Times New Roman', Times, serif; text-align: left;}

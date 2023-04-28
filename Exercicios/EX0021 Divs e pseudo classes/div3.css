@@ -1,0 +1,15 @@
+@charset "UTF8";
+
+body{font-family: Arial, Helvetica, sans-serif;}
+
+a{color: green; font-size: 30px; text-decoration: none;}
+
+a:visited {color: lightskyblue;}
+a:active{color: red;}
+a:hover{text-decoration: underline;}
+
+a::after{ content:'\21D0';}
+a::before{content:'\21D2';}
+
+.especial::after{content:'\2605';}
+.especial::before{content:'\2605';}

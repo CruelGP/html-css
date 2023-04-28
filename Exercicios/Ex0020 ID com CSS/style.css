@@ -1,0 +1,6 @@
+@charset "UTF8";
+
+h1#vct{ color: red; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 70px;}
+h1{ color: chartreuse; font-family: 'Times New Roman', Times, serif;}
+h2{color: rgb(0, 167, 103);}
+p{ font-family: Arial, Helvetica, sans-serif;}
