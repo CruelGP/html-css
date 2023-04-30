@@ -1,0 +1,21 @@
+@charset "UTF8";
+
+div.area
+{background-color: lightgray;
+border: 1px solid black;
+width: 400px;
+height: 400px;
+display: inline-block;
+border-radius: 10px;}
+
+body
+{background-image: url('imagem/vava.jpg');}
+
+div#a1
+{background-image: url('imagem/pattern001.png');}
+
+div#a2
+{background-image: url('imagem/caos300.png');}
+
+div#a3
+{background-image: url('imagem/pattern003.png');}
