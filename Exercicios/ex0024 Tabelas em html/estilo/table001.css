@@ -17,13 +17,20 @@ table
 {width:500px;
 border-collapse:collapse;
 font-family: Arial, Helvetica, sans-serif;
-font-size: 1.5em;}
+font-size: 1.5em;
+position: relative;}
 
 tbody > tr:nth-child(odd)
 {background-color:#8888ff;}
 
 tbody > tr:nth-child(even)
 {background-color:#6161db;}
+
+thead > tr > th
+{position: sticky;
+top: -1px;
+background-color: darkgrey;}
+
 
 thead, tfoot
 {background-color: darkgray;
