@@ -1,0 +1,28 @@
+@charset "UTF8";
+table
+{border-collapse:collapse;
+font-size: 3em;}
+
+td
+{border: 1px solid black;
+padding: 10px 50px 10px 50px;
+color: white;}
+
+tr.linha01
+{background-color: #6767ff;}
+
+tr.linha02
+{background-color: lightgreen;}
+
+tr.linha03
+{background-color: greenyellow;}
+
+tr.linha04
+{background-color: lightgreen;}
+
+tr.linha05
+{background-color: greenyellow;}
+
+td.coluna-01
+{background-color: #6767ff;}
+
