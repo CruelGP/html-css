@@ -1,5 +1,11 @@
 @charset "UTF8";
 
+caption
+{background-color: #292929;
+color: white;
+padding: 10px;
+font-weight: bold;}
+
 th, td
 {border: 1px solid black;
 padding: 10px;}
@@ -13,6 +19,13 @@ border-collapse:collapse;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 1.5em;}
 
+tbody > tr:nth-child(odd)
+{background-color:#8888ff;}
+
+tbody > tr:nth-child(even)
+{background-color:#6161db;}
+
 thead, tfoot
 {background-color: darkgray;
 color: white;}
+
