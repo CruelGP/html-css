@@ -1,0 +1,29 @@
+@charset "UTF8";
+
+table
+{border-collapse: collapse;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;}
+
+caption
+{background-color: #474747;
+color: white;
+font-size: 1.5em;
+font-weight: bold;}
+
+th,td,caption
+{border: 2px solid black;
+padding: 10px;}
+
+
+col.coluna-nome
+{background-color: lightblue;}
+
+col.coluna-sexo
+{background-color: lightgreen;}
+
+col.coluna-idade
+{background-color: lightsalmon;}
+
+col.coluna-profissao
+{background-color: lightseagreen;}
