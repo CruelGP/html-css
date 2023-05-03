@@ -1,0 +1,29 @@
+@charset "UTF8";
+
+div
+{overflow-x: auto;}
+
+table
+{border-collapse: collapse;
+width:800px;
+font-size: 1.1em;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;}
+
+caption
+{font-size: 2em;
+color: white;
+background-color: black;
+font-weight: bold;}
+
+tbody > tr:nth-child(even)
+{background-color: lightgray;}
+
+th,td
+{border: 1px solid black;
+padding: 10px;}
+
+th
+{background-color: #727272;
+color: white;
+font-weight: bold;}
