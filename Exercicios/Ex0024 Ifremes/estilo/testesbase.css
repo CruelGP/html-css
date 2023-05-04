@@ -1,0 +1,32 @@
+@charset "UTF8";
+
+*{margin: 0px;}
+
+body
+{font-family: Arial, Helvetica, sans-serif;}
+
+header
+{height:200px;
+background-color: black;
+color:white;
+font-size: 3em;text-align: center;}
+
+main
+{max-width: 700px;
+margin: auto;}
+
+main > p
+{padding: 10px;
+font-size: 1.2em;
+text-align: justify;}
+
+main > h1
+{padding: 5px;
+font-size: 3em;}
+
+footer
+{height: 200px;
+background-color: black;
+color:white;
+font-size: 3em;
+text-align:center;}
