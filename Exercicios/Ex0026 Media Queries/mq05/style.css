@@ -7,7 +7,7 @@ src: url('fontes/Fun\ Games.otf') format('opentype');}
 :root
 {--game1: 'fungames', 'cursive';
 
---cor0:#ff008c;
+--cor0:#56009c;
 --cor1:#ff3e1c;
 --cor2:#ff0000;
 --cor3:#E05F00;
@@ -26,33 +26,52 @@ background-attachment: fixed;
 height: 100vh;}
 
 header
-{height: 200px;
-background-image: linear-gradient(to bottom, var(--cor0), var(--cor2));}
+{height: 150px;
+background-image: linear-gradient(to bottom, var(--cor0), var(--cor2));
+box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.466);}
 
 header > h1
 {color: white;
 font-family: var(--game1);
-padding-top: 60px;    
+padding-top: 20px;    
 text-align: center;
 font-size: 4em;
 font-weight: normal;}
 
-nav
-{background-color:var(--cor2);
-padding-bottom: 10px;
-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.466);}
-
-nav > a
-{color:white;
+span#burguer
+{display: block;
+color: white;
+text-align: center;
+font-size: 2em;
 padding: 10px;
+cursor: pointer;
+background-color: var(--cor2);}
+
+span#burguer:hover
+{color:var(--cor0);
+border: 2px solid var(--cor0);}
+
+menu
+{padding-bottom: 0px;
+display: none;}
+
+menu a
+{color:white;
+padding: 5px;
 font-weight: bold;
 font-size: 1.3em;
 text-decoration: none;
-border-radius: 10px;}
+background-color: #2e2e2e;
+display: block;
+border: 1px solid white;
+text-align: center;}
 
-nav > a:hover
+li#ut
+{border-bottom: 1px solid white;}
+
+menu  a:hover
 {color: white;
-background-color: #ff5f5f;
+background-color: var(--cor0);
 transition: 1s;}
 
 img
@@ -98,10 +117,13 @@ width: 90%;
 height: 90%;}
 
 footer
-{height: 150px;
+{height: 100px;
 padding-top: 20px;
-text-align: center;
-color: white;
-font-size: 3em;
-font-family: var(--game1);
-background-image: linear-gradient(to bottom, var(--cor2), var(--cor3), var(--cor4));}
+background-image: linear-gradient(to bottom, var(--cor2), var(--cor0));}
+
+footer > p
+{text-align: center;
+    color: white;
+    font-size: 2em;
+    font-family: var(--game1);
+padding-top: 20px;}
