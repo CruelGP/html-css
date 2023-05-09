@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="livros.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" media="all">
+    <link rel="stylesheet" href="estilo/mq.css">
     <title>Extilos inline</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
@@ -14,14 +15,18 @@
     <header>
         <h1> VCT das Américas</h1>
     </header>
-    <span id="burguer" class="material-icons" onclick="clickMenu()" >menu</span>
-    <menu id="itens">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Notícias</a></li>
-            <li id="ut"><a href="#">E-sports</a></li>
-        </ul>
-    </menu>
+    <div id="divburguer">
+        <span id="burguer" class="material-icons" onclick="clickMenu()" >menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Notícias</a></li>
+                <li><a href="#">Classicação</a></li>
+                <li><a href="#">Calendário</a></li>
+                <li id="ut"><a href="#">E-sports</a></li>
+            </ul>
+        </menu>
+    </div>
         <main>
             <article>
                 
