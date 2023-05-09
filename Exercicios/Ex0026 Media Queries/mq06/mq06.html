@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="livros.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Extilos inline</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1> VCT das Américas</h1>
+    </header>
+    <span id="burguer" class="material-icons" onclick="clickMenu()" >menu</span>
+    <menu id="itens">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Notícias</a></li>
+            <li id="ut"><a href="#">E-sports</a></li>
+        </ul>
+    </menu>
+        <main>
+            <article>
+                
+                <h2>Loud vence Cloud9 de virada</h2>
+
+                    <p>A LOUD enfrentou a Cloud9 pela segunda rodada do VCT Américas. Os dois times que saíram vitoriosos em suas respectivas estreias, disputaram uma MD3 que valia a liderança na tabela. Quem levou a melhor foi a LOUD com um 2 a 1.</p>
+
+                <picture>
+                    <source media="(max-width:1000px )" srcset="Imagens/loudp.png">
+                    <img src="Imagens/Loudtime.jpg" alt="Time Loud">
+                </picture>
+
+                <p>Foto da aquipe após a vitória. composta pelo capitão sadhack que joga como flex da equipe, Less que joga na posição sentinela, Aspas faz a função de duelista, Tutz é o controlador e Cauanzin faz a função de iniciador, e ao lado deles tem o cout da equipe Froid que tbm é escalado como um jogador reserva da equipe.</p>
+
+                <h2>Loud 0 x 1 Cloud9</h2>
+                <picture>
+                    <source media="(max-width:800px)" srcset="Imagens/splitp.png">
+                    <img src="Imagens/Split-VALORANT.png" alt="">
+                </picture>
+
+                    <p>O primeiro mapa Split, escolha da C9. O time norte-americano saiu na frente e rapidamente abriu um 5 a 0. A LOUD no lado     defensivo mostrou algumas fragilidades com o estilo de jogo do time adversário. Apesar da dificuldade, o time brasileiro conseguiu alguns rounds e a primeira metade ficou 8 a 4 para a Cloud9. <br>
+                        Na segunda metade, a Cloud9 seguiu liderando e cometeu poucos erros para a LOUD jogar em cima disso. Na reta final, a equipe brasileira chegou a descontar alguns rounds, mas não deu, a vitória ficou com a C9 por 13 a 7.</p>
+
+                    <h2>Loud 1 x 1 Cloud9</h2>
+                        <picture>
+                            <source media="(max-width:800px)" srcset="Imagens/astcentP.png">
+                            <img src="Imagens/astcentG.png" alt="mapa ascent valorant">
+                        </picture>
+                    <p> O segundo mapa foi Ascent e a Cloud9 venceu o pistol round, mas o forçado ficou com o time do Brasil. No ataque, a LOUD conseguiu sair na frente e impor seu ritmo de jogo, enquanto a equipe adversária demonstrava problemas para se defender.
+                        Depois de um 9 a 3 na primeira metade, a Cloud9 mostrou um lado ofensivo bem melhor do que foi na defesa, mas mesmo assim não conseguiu tirar a grande vantagem que a LOUD tinha em mãos. A equipe venceu por 13 a 8 e empatou a série.</p>
+                    <h2>Loud 2 x 1 Cloud9</h2>
+                    <picture>
+                        <source media="(max-width:800px)" srcset="Imagens/pearlP.png">
+                        <img src="Imagens/pearlG.png" alt="mapa ascent valorant">
+                    </picture>
+                    <p>Na Pearl, a LOUD teve um começo melhor e abriu um 6 a 1. A equipe brasileira não deixou a C9 dominar os espaços e nem jogar em cima dos erros, o que tornou o duelo mais difícil pros norte-americanos na primeira parte da partida. Na virada dos lados, a C9 buscou alguns rounds, mas ficou por isso. A LOUD cravou a vitória por 13 a 7.</p>
+                
+                    <h2>Confira o jogo completo</h2>
+                    <div class="id">
+                        <iframe src="https://www.youtube.com/embed/N-5OZj5meI0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+
+                    <p>Estas series foram muito emocionantes, tendo como destaques o jogadores aspas e mwsera ambos brasileiros que lideraram suas equipes a vitória na serie.</p>
+
+            </article>
+        </main>
+        <script>
+            function clickMenu(){
+                if (itens.style.display == 'block')
+                {itens.style.display = 'none'}
+                else
+                {itens.style.display = 'block'}
+            }
+        </script>
+        
+
+        <footer>
+            <p>Criado pelo mostro</p>
+        </footer>
+</body>
+</html>
