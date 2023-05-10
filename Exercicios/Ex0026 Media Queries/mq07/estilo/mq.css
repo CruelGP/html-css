@@ -1,0 +1,15 @@
+@charset "UTF8";
+
+@media screen and (min-width:320px) and (max-width: 750px){
+    span#burguer
+    {display:block}
+    menu#normal
+    {display:none}
+}
+
+@media screen and (min-width:760px){
+    span#burguer
+    {display:none}
+    menu#list > ul > li
+    {display:none}
+}
